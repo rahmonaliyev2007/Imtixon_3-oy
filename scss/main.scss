@@ -1,0 +1,10 @@
+@import "reset";
+@import "variables";
+@import "header";
+@import "section";
+@import "footer";
+
+html {
+    min-width: 280px;
+    overflow-x: hidden;
+}

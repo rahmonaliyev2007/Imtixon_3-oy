@@ -1,0 +1,30 @@
+$black: rgba(54, 55, 56, 1);
+$yellow: rgba(255, 206, 80, 1);
+$green: rgba(11, 117, 114, 1);
+$gray: rgba(107, 107, 108, 1);
+
+@mixin heading-h1 {
+    font-size: 52px;
+    line-height: 65px;
+    font-weight: 600;
+}
+
+@mixin heading-h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+@mixin heading-h3 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+@mixin p {
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray;
+    font-family: "PT Sans", sans-serif;
+    font-weight: normal;
+}
